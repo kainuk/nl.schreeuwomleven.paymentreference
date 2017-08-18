@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <extension key="nl.schreeuwomleven.paymentreference" type="module">
   <file>paymentreference</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Betalingskenmerk voor schreeuw om leven</name>
+  <description>Berekent betalingskenmerk aan de hand van contact id</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Klaas Eikelboom</author>
     <email>klaas.eikelboom@civicoop.org</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/kainuk/nl.schreeuwomleven.paymentreference/</url>
+    <url desc="Documentation">https://github.com/kainuk/nl.schreeuwomleven.paymentreference/</url>
+    <url desc="Support">https://github.com/kainuk/nl.schreeuwomleven.paymentreference/</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2017-08-11</releaseDate>
@@ -20,7 +20,7 @@
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>Zeer specifiek voor het SoL proces</comments>
   <civix>
     <namespace>CRM/Paymentreference</namespace>
   </civix>
