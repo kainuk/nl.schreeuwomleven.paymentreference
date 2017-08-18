@@ -15,8 +15,9 @@ return array (
       'description' => 'Call Job.UpdatePaymentReference API',
       'run_frequency' => 'Daily',
       'api_entity' => 'Job',
-      'api_action' => 'UpdatePaymentReference',
+      'api_action' => 'update_payment_reference',
       'parameters' => '',
+      'is_active'  => 0
     ),
   ),
 );

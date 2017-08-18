@@ -32,7 +32,7 @@ function civicrm_api3_job_update_payment_reference($params) {
     'name' => 'paymentReference',
     'return' => 'id',
   ]);
-  
+
   $count = 0;
   $offset = 0;
 
@@ -54,7 +54,7 @@ function civicrm_api3_job_update_payment_reference($params) {
     $offset += $params['step'];
   }
 
-  $returnValues = array('nr updates' => $count, 'step' => $params['step'];
+  $returnValues = array('nr updates' => $count, 'step' => $params['step']);
   return civicrm_api3_create_success($returnValues, $params, 'Job', 'UpdatePaymentReference');
 
 }
