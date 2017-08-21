@@ -46,7 +46,7 @@ function civicrm_api3_job_update_payment_reference($params) {
       $cid = $dao->id;
       civicrm_api3('Contact', 'create', [
         'id' => $cid,
-        'custom_' . $customFieldId => CRM_Paymentreference_Utils::paymentReference(8, $cid),
+        'custom_' . $customFieldId => CRM_Paymentreference_Utils::paymentReference(8100, $cid),
       ]);
       $count++;
     }
