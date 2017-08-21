@@ -158,7 +158,7 @@ function paymentreference_civicrm_post($op, $objectName, $objectId, &$objectRef)
     ));
     civicrm_api3('Contact','create',array(
       'id' => $objectId,
-      'custom_'.$customFieldId => CRM_Paymentreference_Utils::paymentReference(8,$objectId)
+      'custom_'.$customFieldId => CRM_Paymentreference_Utils::paymentReference(8100,$objectId)
     ));
   }
 
